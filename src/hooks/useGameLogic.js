@@ -87,7 +87,7 @@ export const usegameLogic = (cardValues) => {
           setFlippedCards([]);
           setIsLocked(false);
 
-        }, 500);
+        }, 250);
       } else {
         // flip back card 1, card 2
 
@@ -104,7 +104,7 @@ export const usegameLogic = (cardValues) => {
           setIsLocked(false);
           setFlippedCards([]);
 
-        }, 1000)
+        }, 500)
       }
 
       setMoves((prev) => prev + 1);
